@@ -13,15 +13,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  //persegi
-  double fieldpanjangpersegi, fieldlebarpersegi;
-  String luaspersegi = "KOSONG", kelilingpersegi = "KOSONG";
-  // lingkaran
-  double diameter;
-  String luaslingkaran = "KOSONG", kelilinglingkaran = "KOSONG";
-  //segitiga
-  double alassegitiga, tinggisegitiga, hitungkeliling;
-  String luassegitiga = "KOSONG", kelilingsegitiga = "KOSONG";
 
   @override
   Widget build(BuildContext context) {
